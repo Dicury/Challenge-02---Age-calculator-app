@@ -1,6 +1,17 @@
 :root {
-  --max-width: 1100px;
   --border-radius: 12px;
+
+  /* cores primárias */
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+
+  /* cores secundárias */
+
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
 }
 
 * {
@@ -9,8 +20,17 @@
   margin: 0;
 }
 
-html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--light-grey);
+}
+
+::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
