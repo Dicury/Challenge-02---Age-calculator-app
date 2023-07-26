@@ -1,12 +1,14 @@
 "use client";
-import icone from "@/assets/images/icon-arrow.svg";
+
 import Calculadora from "@/components/Calculadora";
 import Card from "@/components/Card";
+import Data from "@/components/Data";
 
 export default function Home() {
   return (
     <Card>
       <Calculadora />
+      <Data />
     </Card>
   );
 }

@@ -15,19 +15,34 @@ export const Input = styled.input`
   padding-left: 10px;
   font-size: 32px;
   font-weight: 700;
-  display: flex;
   border-radius: 5px;
   border: 1px solid var(--light-grey);
 `;
 
 export const Calculadora_UserInput = styled.div`
   display: flex;
-  width: 100%;
+  width: auto;
+  height: 35%;
   gap: 1rem;
   justify-content: space-between;
+  border-bottom: 1px solid var(--light-grey);
 `;
 
-export const Calculadora_BlocoInput = styled.div`
+export const Calculadora_BlocoInput = styled.div``;
+
+export const ContainerBotao = styled.div`
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+`;
+
+export const StyleBotao = styled.button`
+  position: absolute;
+  top: -35px;
+  background-color: var(--purple);
+  height: 70px;
+  width: 70px;
+  border: none;
+  border-radius: 100px;
 `;
