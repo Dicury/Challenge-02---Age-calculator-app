@@ -7,8 +7,12 @@ export const DataContainer = styled.div`
 
 export const DataLegenda = styled.p`
   font-weight: 800;
-  font-size: 55px;
+  font-size: clamp(2rem, 7vw, 8vw);
   line-height: 3.5rem;
+
+  @media (min-width: 769px) {
+    line-height: 8vw;
+  }
 `;
 
 export const DataConta = styled.span`
