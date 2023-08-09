@@ -25,12 +25,3 @@ body {
   overflow-x: hidden;
   background-color: var(--light-grey);
 }
-
-::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}

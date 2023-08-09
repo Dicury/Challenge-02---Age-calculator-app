@@ -2,17 +2,17 @@ import React from "react";
 
 import { DataContainer, DataLegenda, DataConta } from "./Data-style";
 
-export default function Data() {
+export default function Data({ dia, mes, ano }) {
   return (
     <DataContainer>
       <DataLegenda>
-        <DataConta>24 </DataConta>Anos
+        <DataConta>{ano} </DataConta>Anos
       </DataLegenda>
       <DataLegenda>
-        <DataConta>0 </DataConta>Meses
+        <DataConta>{mes} </DataConta>Meses
       </DataLegenda>
       <DataLegenda>
-        <DataConta>1 </DataConta>Dias
+        <DataConta>{dia} </DataConta>Dias
       </DataLegenda>
     </DataContainer>
   );
