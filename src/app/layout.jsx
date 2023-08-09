@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
-import StyledJsxRegistry from "./registry";
+import StyledComponentsRegistry from "./registry";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body className={poppins.className}>
-        <StyledJsxRegistry>{children}</StyledJsxRegistry>
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
     </html>
   );
